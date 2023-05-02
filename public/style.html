@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic CSS Example</title>
+  <link rel="stylesheet" href="default.css" id="stylesheet">
+</head>
+<body>
+  <div class="box" id="box1">Box 1</div>
+  <div class="box" id="box2">Box 2</div>
+  <div class="box" id="box3">Box 3</div>
+  <img src="example.jpg" alt="Example Image">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at elit quis elit porttitor scelerisque ac vel quam. Sed efficitur convallis leo, vel dictum ipsum iaculis eu. Nullam hendrerit venenatis nulla, eget bibendum risus volutpat vel.</p>
+  <button onclick="changeStylesheet('red.css')">Red Theme</button>
+  <button onclick="changeStylesheet('blue.css')">Blue Theme</button>
+  <script>
+    function changeStylesheet(filename) {
+      document.getElementById('stylesheet').href = filename;
+    }
+  </script>
+</body>
+</html>

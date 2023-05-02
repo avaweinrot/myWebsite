@@ -1,0 +1,27 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    border: 1px solid #000000;
+    margin: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  button {
+    background-color: #cccccc;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
