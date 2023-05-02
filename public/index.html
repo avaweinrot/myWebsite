@@ -1,44 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Computer Science Website</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<title>Crossy Roads Game</title>
+	<style>
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
 </head>
 <body>
-	<header>
-		<h1>Welcome to My Computer Science Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<h1>Crossy Roads Game</h1>
+	<p>Use the arrow keys to move your character across the road and avoid the obstacles. Get as far as you can!</p>
 
-	<main>
-		<section>
-			<h2>About Me</h2>
-			<p>Insert your personal introduction here. Talk about your interests and goals in computer science.</p>
-		</section>
+	<canvas id="gameCanvas" width="600" height="600"></canvas>
 
-		<section>
-			<h2>Projects</h2>
-			<p>Insert a list of your recent projects here. Include a brief description of each project and a link to a GitHub repository or live demo if applicable.</p>
-		</section>
-
-		<section>
-			<h2>Contact</h2>
-			<p>Insert your contact information here. This can include your email address, social media handles, and any other relevant information.</p>
-		</section>
-	</main>
-
-	<footer>
-		<p>Copyright © 2023. All rights reserved.</p>
-	</footer>
-
+	<script src="crossy-roads.js"></script>
 </body>
 </html>
