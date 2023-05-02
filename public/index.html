@@ -20,5 +20,28 @@
 		<li>2010: American Woman: Fashioning a National Identity</li>
 		<li>2009: The Model as Muse: Embodying Fashion</li>
 	</ul>
+
+
+	  <meta charset="UTF-8">
+	  <title>Dynamic CSS Example</title>
+	  <link rel="stylesheet" href="default.css" id="stylesheet">
+	</head>
+	<body>
+	  <h1>Vote</h1>
+	  <div class="box" id="box1">Vote 1</div>
+	  <div class="box" id="box2">Vote 2</div>
+	  <div class="box" id="box3">Vote 3</div>
+	  <img src="annawintour.jpg" alt="Anna Wintour">
+	  <p>The Met Gala, formally called the Costume Institute Benefit and also known as the Met Ball, is an annual fundraising gala for the benefit of the Metropolitan Museum of Art's Costume Institute in New York City. It is one of the most notable fashion events in the world, attracting celebrities, designers, and fashion industry insiders.</p>
+	  <button onclick="changeStylesheet('darkgreen.css')">Dark Green Theme</button>
+	  <button onclick="changeStylesheet('lightgreen.css')">Light Green Theme</button>
+	  <script>
+		function changeStylesheet(filename) {
+		  document.getElementById('stylesheet').href = filename;
+		}
+	  </script>
+	</body>
+	</html>
+	
 </body>
 </html>
